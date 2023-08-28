@@ -1,5 +1,5 @@
 - name: vars playbook
-  #hosts: localhost
+  hosts: LOCA
   tasks:
   - name: var from play level
     debug:
