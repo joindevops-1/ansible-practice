@@ -1,9 +1,9 @@
 - name: variables from prompt
   hosts: localhost
   vars_prompt:
-    - name : PASSWD
-      prompt : Please enter the password
-      private : no
+  - name : PASSWD
+    prompt : Please enter the password
+    private : no
   tasks:
   - name: test the prompt password
     debug:
