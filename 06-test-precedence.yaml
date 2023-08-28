@@ -1,7 +1,7 @@
 - name: vars playbook
   hosts: localhost
-  vars:
-    NAME: Siva-PLAY
+  # vars:
+  #   NAME: Siva-PLAY
   # vars_prompt:
   # - name : NAME
   #   prompt : Please enter the name
