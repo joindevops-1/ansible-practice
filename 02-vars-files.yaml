@@ -1,5 +1,5 @@
 - name : DEMO on variables from files
-  hosts : DEV
+  hosts : localhost
   vars_files :
     - variables.yaml
   tasks :
