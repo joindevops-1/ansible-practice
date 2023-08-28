@@ -6,3 +6,8 @@
   - name: var from play level
     debug:
       msg: "Hello {{NAME}}"
+  - name: var from task level
+    vars:
+      NAME: Sivakumar Reddy
+    debug:
+      msg: "Hello {{NAME}}"
