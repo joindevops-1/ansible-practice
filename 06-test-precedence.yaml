@@ -8,7 +8,7 @@
     private : no
   tasks:
   - name: var from play level
-    vars:
-      NAME: Siva-TASK
+    # vars:
+    #   NAME: Siva-TASK
     debug:
       msg: "Hello {{NAME}}"
