@@ -6,4 +6,4 @@
       msg: "Hello {{NAME}}"
   - name: var from task level
     debug:
-      msg: "Hello {{NAME}}"
+      msg: "Hello {{NAME}}, course {{COURSE}}"
