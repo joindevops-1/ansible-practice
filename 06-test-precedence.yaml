@@ -1,0 +1,13 @@
+- name: vars playbook
+  hosts: localhost
+  vars:
+    NAME: Siva-PLAY
+  vars_prompt:
+  - name : NAME
+    prompt : Please enter the name
+    private : no
+  tasks:
+  - name: var from play level
+    NAME: NAME: Siva-TASK
+    debug:
+      msg: "Hello {{NAME}}"
