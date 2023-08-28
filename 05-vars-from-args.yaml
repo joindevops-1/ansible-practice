@@ -1,0 +1,6 @@
+- name: vars playbook
+  hosts: localhost
+  tasks:
+  - name: var from play level
+    debug:
+      msg: "Hello {{DURATION}}"
