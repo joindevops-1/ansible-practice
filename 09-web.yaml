@@ -9,7 +9,8 @@
   - name: enable nginx
     ansible.builtin.service:
       name: nginx
-      state: enabled
+      state: started
+      enabled: true
   - name: remove the default website
     ansible.builtin.file:
       path: /usr/share/nginx/html
