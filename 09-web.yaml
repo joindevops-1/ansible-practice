@@ -22,5 +22,5 @@
   - name: Unarchive a file that needs to be downloaded (added in 2.0)
     ansible.builtin.unarchive:
       src: https://roboshop-builds.s3.amazonaws.com/web.zip
-      dest: /tmp/web.zip
+      dest: /tmp/
       remote_src: yes
