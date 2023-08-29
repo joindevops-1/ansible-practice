@@ -1,6 +1,6 @@
 - name: roboshop web component
   become: yes
-  hosts: mongodb
+  hosts: localhost
   tasks:
   - name: install nginx server
     ansible.builtin.yum:
