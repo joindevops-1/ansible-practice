@@ -1,5 +1,6 @@
 - name: ansible loops
   hosts: localhost
+  become: yes
   tasks:
   - name: install packages
     ansible.builtin.yum:
